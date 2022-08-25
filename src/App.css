@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+footer {
+    background-color: hotpink;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 7.5px 15px;
+}
+
+.display {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    padding: 25px;
+    border: hotpink solix 2px;
+    background-color: rgba(255, 105, 180, 0.799);
+    border-radius: 15px;
+
+}
+
+div.project-container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding-bottom: 100px;
+}
+
+.project-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.project-div {
+    padding: 10px 2%;
+    margin: 10px;
+}
+
+.project-div img {
+    max-width: 400px;
+    border-radius: 15px;
+    transition: .555s;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-div img:hover {
+    transform: scale(.95);
+    box-shadow: rgba(255, 105, 180, 0.799) 2px 2px 10px 10px;
+}
+
+.project-div a {
+    text-decoration: none;
+    color: hotpink;
+    font-size: large;
+    transition: .2s;
+}
+
+.project-div a:hover{
+    color: rgb(210, 105, 255)
+}
+
+.project-info {
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 105, 180, 0.799);
+    border-radius: 25px;
+    max-width: 400px;
+}
+
+div.resume-container {
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.github-div {
+    padding: 30px;
+    margin: auto;
+    color: white;
+    background-color: hotpink;
+    border-radius: 25px;
+    transition: .666s;
+}
+
+.github-div a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.github-div:hover {
+    transform: scale(1.1);
+    
+}
+
+.language-div {
+    background-color: hotpink;
+    padding: 20px 25px;
+    margin: 15px auto;
+    border-radius: 25px;
+}
+
+.experience-wrap {
+    display: flex;
+    justify-content: center;
+}
+.exp-container {
+    margin: 10px 20px;
+    padding: 15px;
+    background-color: hotpink;
+    border-radius: 25px;
+    max-width: 300px;
+}
+
+@media (max-width: 700px) {
+    header {
+        font-size: 10px;
+    }
+
+    .project-div img {
+        max-width: 250px;
+    }
+}
