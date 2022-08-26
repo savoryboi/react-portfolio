@@ -2,7 +2,7 @@ function Resume() {
     return (
         <div className="resume-container">
             <div className="github-div">
-                <a href="http://github.com/savorboi">GitHub Account</a>
+                <a href="http://github.com/savoryboi">GitHub Account</a>
             </div>
             <div className="language-div">
                 <h2>My Languages</h2>
