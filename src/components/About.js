@@ -3,7 +3,7 @@ const img = require('../assets/images/headshot-new.jpg');
 function About() {
   
     return (
-      <div className='row'>
+      <div className='about-container'>
         <div>
           <img className="headshot-img" src={img}></img>
         </div>
