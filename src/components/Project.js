@@ -24,6 +24,12 @@ const projects = [
         url: 'https://savoryboi.github.io/weather-app/',
         github: 'https://github.com/savoryboi/weather-app',
         img_path: require('../assets/images/weather-shot.png')
+    }, 
+    {
+        title: 'JavaScript Quiz', 
+        url: 'https://savoryboi.github.io/js-quiz/', 
+        github: 'https://github.com/savoryboi/js-quiz',
+        img_path: require('../assets/images/js-quiz.png')
     }
 ]
 
