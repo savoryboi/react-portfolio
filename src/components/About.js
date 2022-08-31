@@ -1,8 +1,11 @@
+const img = require('../assets/images/headshot-new.jpg');
+
 function About() {
+  
     return (
-      <div>
-        <div className="headshot-img">
-          <img src={require('../assets/images/headhot-new.png')}/>
+      <div className='row'>
+        <div>
+          <img className="headshot-img" src={img}></img>
         </div>
         <div className='about'>
         <h3>Communications major turned coder.</h3>

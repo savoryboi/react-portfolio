@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 html {
     height: 100%
 }
@@ -33,12 +35,16 @@ footer p {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin: 10% auto;
-    padding: 25px;
+    margin: 5% auto;
+    padding: 15px;
     border: hotpink solix 2px;
     background-color: rgba(255, 105, 180, 0.799);
     border-radius: 15px;
 
+}
+
+div.about {
+    margin-bottom: 100px;
 }
 
 div.project-container {
@@ -151,9 +157,21 @@ div.resume-container {
     max-width: 300px;
 }
 
+img.headshot-img {
+    display: flex;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: 50px auto 10px auto;
+    
+}
+
 @media (max-width: 700px) {
     header {
         font-size: 10px;
+    }
+
+    body {
+        justify-content: center;
     }
 
     .project-div img {
