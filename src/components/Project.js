@@ -2,6 +2,12 @@
 
 const projects = [
     {
+        title: 'MyDood', 
+        url: 'https://my-dood.herokuapp.com/',
+        github: 'https://github.com/savoryboi/my-dood',
+        img_path: require('../assets/images/mydood.gif.gif')
+    },
+    {
         title: 'PokeSLAP', 
         url: 'https://poke-slap.herokuapp.com/',
         github: 'https://github.com/palmersola/Pokemon-SLAP',
@@ -34,7 +40,6 @@ const projects = [
 ]
 
 function Project() {
-    console.log(projects[0].img_path)
     return(
         
         <div className='project-container'>
