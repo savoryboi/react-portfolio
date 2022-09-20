@@ -27,7 +27,7 @@ header h1:hover {
 nav {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 10px auto;
 }
 
 #portfolio {
@@ -57,11 +57,6 @@ nav h2:hover {
     header {
         flex-direction: column;
         text-align: center;
-        font-size: .5rem;
+        font-size: .7rem;
     }
-
-    /* nav {
-        font-size: 8px;
-        margin: 0;
-    } */
 }
