@@ -135,56 +135,17 @@ div.project-container {
 div.resume-container {
     text-align: center;
     justify-content: center;
-    margin: 50px auto;
+    margin: 30% auto;
 }
 
-.resume-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.resume-container a {
+        background-color: rgb(55, 204, 224);
+        padding: 100px 5px;
+        border-radius: 50%;
+        text-decoration: none;
+        color:hotpink;
+        font-size: 28px;
 }
-
-.github-div {
-    padding: 30px;
-    margin: auto;
-    color: white;
-    background-color: hotpink;
-    border-radius: 25px;
-    transition: .666s;
-}
-
-.github-div a {
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: white;
-}
-
-.github-div:hover {
-    transform: scale(1.1);
-
-}
-
-.language-div {
-    background-color: hotpink;
-    padding: 20px 25px;
-    margin: 15px auto;
-    border-radius: 25px;
-}
-
-.experience-wrap {
-    display: flex;
-    justify-content: center;
-}
-
-.exp-container {
-    margin: 10px 20px;
-    padding: 15px;
-    background-color: hotpink;
-    border-radius: 25px;
-    max-width: 300px;
-}
-
 
 @media screen and (max-width: 700px) {
     .about-container {
