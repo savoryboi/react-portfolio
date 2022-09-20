@@ -5,7 +5,7 @@ function Navigation(props) {
     return (
         <div>
             <nav>
-                <Link className="link" to="/react-portfolio/about">
+                <Link className="link" to="/react-portfolio">
                     <h2>about</h2>
                 </Link>
                 <Link className="link" to="/react-portfolio/portfolio"><h2>portfolio</h2>

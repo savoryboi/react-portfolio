@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     padding: 15px 5px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 header a {
@@ -20,7 +26,12 @@ header h1:hover {
 
 nav {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#portfolio {
+    color: rgb(45, 203, 227);
 }
 
 nav .link {
@@ -29,7 +40,7 @@ nav .link {
 }
 
 nav h2 {
-    padding: 5px 15px;
+    padding: 5px 12px;
     transition: 1s;
     border-radius: 10px;
 }
@@ -40,4 +51,17 @@ nav h2:hover {
     border: 2px solid hotpink;
     border-radius: 10px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        font-size: .5rem;
+    }
+
+    /* nav {
+        font-size: 8px;
+        margin: 0;
+    } */
 }
