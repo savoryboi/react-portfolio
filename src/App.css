@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ html {
 
 body {
     background-image: url('./assets/images/background.png');
+    background-size: cover;
 }
 
 footer {
@@ -51,12 +54,16 @@ footer {
 .about-section {
     align-self: center;
     width: 400px;
-    border-radius: 25px;
+    border-radius: 19px;
     border: 2px hotpink solid;
     padding: 3% 5%;
     margin: 2%;
     justify-content: center;
-    background-color: rgba(255, 105, 180, 0.799);
+    background-color: rgba(255, 105, 180, 0.477);
+}
+
+.about-wrapper {
+    display: flex;
 }
 
 div.img-cont {
@@ -64,16 +71,27 @@ div.img-cont {
     width: 300px;
     display: flex;
     justify-content: center;
+    position: sticky;
 }
 
 div.img-cont img {
-    width: 200px;
+    width: 250px;
+    height: fit-content;
     border-radius: 500px;
     border: 2px solid rgb(55, 204, 224);
+    transition: .5s;
+
+}
+.about-section h3 {
+    font-family: 'Exo', sans-serif;
+    padding: 0px 0px 10px 0px;
 }
 
 .about-section p {
     font-size: 14px;
+    color: rgb(175, 37, 106);
+    font-family: 'Exo', sans-serif;
+
 }
 
 div.project-container {
@@ -135,32 +153,40 @@ div.project-container {
 div.resume-container {
     text-align: center;
     justify-content: center;
-    margin: 15% auto;
+    margin: 200px auto 50%;
 }
 
 .resume-container a {
     background-color: rgb(55, 204, 224);
-    padding: 100px 5px;
+    padding: 100px 10px;
     border-radius: 50%;
     text-decoration: none;
     color: hotpink;
     font-size: 28px;
-    transition: 5s;
+    transition: .5s;
 }
 
-@media screen and (max-width: 700px) {
-    .about-container {
+div.resume-container a:hover {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 800px) {
+    .about-wrapper {
         display: flex;
+        flex-direction: column;
         justify-self: center;
     }
 
     .about-container .img-cont img {
-        width: 150px;
+        width: 200px;
+    }
+
+    .about-section {
+        max-width: 350px;
     }
 
     .about-section h3 {
         font-size: 14px;
-        margin-bottom: 4px;
     }
 
     .about-section p {
@@ -171,4 +197,10 @@ div.resume-container {
         width: 280px;
     }
 
+}
+
+@media screen and (min-width: 1300px) {
+    div.img-cont {
+        width: 100%;
+    }
 }
