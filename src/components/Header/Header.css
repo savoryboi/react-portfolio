@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-    padding: 15px 5px;
+    padding: 20px 5px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -27,7 +27,7 @@ header h1:hover {
 nav {
     display: flex;
     justify-content: center;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 #portfolio {

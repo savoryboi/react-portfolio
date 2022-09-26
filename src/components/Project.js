@@ -45,7 +45,7 @@ function Project() {
         <div className='project-container'>
         {projects.map((project, index) => {
             
-            return <div key={index} className="project-div animate__animated animate__bounceInUp">
+            return <div key={index} className="project-div animate__animated animate__fadeInUp">
             <a href={project.url}>
                 <img src={project.img_path}></img>
             </a>
