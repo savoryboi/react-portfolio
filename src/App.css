@@ -66,6 +66,8 @@ footer {
 
 .about-wrapper {
     display: flex;
+    flex-direction: column;
+    padding: 15px 2%;
 }
 
 div.img-cont {
@@ -73,17 +75,24 @@ div.img-cont {
     width: 300px;
     display: flex;
     justify-content: center;
-    position: sticky;
+    padding: 30px;
+
 }
 
 div.img-cont img {
     width: 250px;
-    height: fit-content;
     border-radius: 500px;
     border: 2px solid rgb(55, 204, 224);
     transition: .5s;
-
 }
+
+/* img.headshot-img {
+    width: 200px;
+    border-radius: 500px;
+    border: 2px solid rgb(55, 204, 224);
+    transition: .5s;
+} */
+
 .about-section h3 {
     font-family: 'Exo', sans-serif;
     padding: 0px 0px 10px 0px;

@@ -38,14 +38,13 @@ const projects = [
         img_path: require('../assets/images/js-quiz.png')
     }
 ]
-
 function Project() {
     return(
         
         <div className='project-container'>
         {projects.map((project, index) => {
             
-            return <div key={index} className="project-div animate__animated animate__fadeInUp">
+            return <div key={index} className="project-div animate__animated animate__bounceInUp">
             <a href={project.url}>
                 <img src={project.img_path}></img>
             </a>
