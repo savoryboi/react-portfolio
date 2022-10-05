@@ -11,16 +11,16 @@ function About() {
         <div className='about-section animate__animated animate__fadeInLeftBig'>
           <h3>Communications major turned coder.</h3>
           <p>
-            I graduated from the University of Minnesota in the spring of 2020, and two years later began my journey as a developer. After playing around with some basic HTML, CSS, and JavaScript on my own, I enrolled in a full-time, full stack development bootcamp through the University of Minnesota and Trilogy Education.
+          Full-Stack MERN developer, utilizing my background in communications and media to create meaningful and creative solutions to user problems by having a holistic understanding of how users interact with and utilize digital products. Recently received a Certificate of Full Stack Web Development from the University of Minnesota where I developed my skills in JavaScript, React.js, CSS, and a handful of other technologies (like Node.js). Known for creating sleek, responsive applications focused on simple and enjoyable UI/UX, and creative solutions to logistical problems.
           </p>
         </div>
         <div className='about-section animate__animated animate__fadeInRightBig'>
           <h3>a little more...</h3>
           <p>
-            I am most passionate about front end/UX design and development, and am a creative person at heart. The balance of technological skill and creativity is what made me fall in love with development. 
+          Proven by my time in bootcamp, I am a curious, quick, and adaptive learner who thrives in real-world projects, both collaborative and individual. Working in restaurant management has taught me how to take on projects, manage a team of employees, and solve real problems in a fast-paced work environment. Ready to focus those skills on growing as a developer with a team of dedicated, quality-driven individuals.
             <br></br>
             <br></br>
-            I thrive in a hands-on environment, and learn fast. Especially when working collaboratively. Experienced in building solo and collaborative projects, deploying on both GitHub Pages and Heroku. 
+            I thrive in a hands-on environment, and learn fast. Experienced in building solo and collaborative projects, deploying on both GitHub Pages and Heroku. 
           </p>
         </div>
       </div>
