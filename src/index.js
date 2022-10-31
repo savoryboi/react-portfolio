@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -17,8 +17,8 @@ import Footer from './components/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  
+    <HashRouter>
       <App />
       <Routes>
         <Route path="/react-portfolio" element={<About />} />
@@ -28,8 +28,8 @@ root.render(
         <Route path="/react-portfolio/resume" element={<Resume />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
-  </React.StrictMode>
+    </HashRouter>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
