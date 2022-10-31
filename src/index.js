@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  HashRouter,
+  BrowserRouter,
   Routes,
-  Route, Switch, Link,
+  Route,
 } from "react-router-dom";
 
 import './index.css';
@@ -17,29 +17,19 @@ import Footer from './components/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
-    <HashRouter>
+  <React.StrictMode>
+    <BrowserRouter>
       <App />
-      <Switch>
-        <Route path="/react-portfolio">
-          <About />
-        </Route>
-        <Route path="/react-portfolio/about">
-          <About />
-        </Route>
-        <Route path="/react-portfolio/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/react-portfolio/contact">
-          <Contact />
-        </Route>
-        <Route path="/react-portfolio/resume">
-          <Resume />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/react-portfolio" element={<About />} />
+        <Route path="/react-portfolio/about" element={<About />} />
+        <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
+        <Route path="/react-portfolio/contact" element={<Contact />} />
+        <Route path="/react-portfolio/resume" element={<Resume />} />
+      </Routes>
       <Footer />
-    </HashRouter>
-  
+    </BrowserRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
