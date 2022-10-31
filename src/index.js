@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {
   HashRouter,
   Routes,
-  Route,
+  Route, Switch, Link,
 } from "react-router-dom";
 
 import './index.css';
@@ -20,13 +20,23 @@ root.render(
   
     <HashRouter>
       <App />
-      <Routes>
-        <Route path="/react-portfolio" element={<About />} />
-        {/* <Route path="/react-portfolio/about" element={<About />} /> */}
-        <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
-        <Route path="/react-portfolio/contact" element={<Contact />} />
-        <Route path="/react-portfolio/resume" element={<Resume />} />
-      </Routes>
+      <Switch>
+        <Route path="/react-portfolio">
+          <About />
+        </Route>
+        <Route path="/react-portfolio/about">
+          <About />
+        </Route>
+        <Route path="/react-portfolio/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/react-portfolio/contact">
+          <Contact />
+        </Route>
+        <Route path="/react-portfolio/resume">
+          <Resume />
+        </Route>
+      </Switch>
       <Footer />
     </HashRouter>
   
