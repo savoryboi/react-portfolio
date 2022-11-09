@@ -5,7 +5,9 @@ const projects = [
         title: 'MyDood', 
         url: 'https://my-dood.herokuapp.com/',
         github: 'https://github.com/savoryboi/my-dood',
-        img_path: require('../assets/images/mydood.gif.gif')
+        img_path: require('../assets/images/mydood.gif.gif'), 
+        burner_email: 'test@testing.com',
+        burner_password: 'testing'
     },
     {
         title: 'PokeSLAP', 
@@ -51,6 +53,7 @@ function Project() {
             <div className='project-info'>
             <h3>{project.title}</h3>
             <a href={project.github}>GitHub Repo</a>
+            {project.burner_email ? <p>email: {project.burner_email} password: {project.burner_password}</p> : <div></div>}
             </div>
             </div>
            })}
