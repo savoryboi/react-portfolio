@@ -13,7 +13,9 @@ const projects = [
         title: 'PokeSLAP', 
         url: 'https://poke-slap.herokuapp.com/',
         github: 'https://github.com/palmersola/Pokemon-SLAP',
-        img_path: require('../assets/images/Pokeslap_Gif.gif')
+        img_path: require('../assets/images/Pokeslap_Gif.gif'),
+        burner_email: 'testing', 
+        burner_password: 'testing'
     }, 
     {
         title: 'ToDo App', 
@@ -53,7 +55,7 @@ function Project() {
             <div className='project-info'>
             <h3>{project.title}</h3>
             <a href={project.github}>GitHub Repo</a>
-            {project.burner_email ? <p>email: {project.burner_email} password: {project.burner_password}</p> : <div></div>}
+            {project.burner_email ? <div><p>login: {project.burner_email}</p> <p>password: {project.burner_password}</p> </div>: <div></div>}
             </div>
             </div>
            })}

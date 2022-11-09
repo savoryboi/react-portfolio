@@ -41,16 +41,18 @@ nav .link {
 
 nav h2 {
     padding: 5px 12px;
-    transition: 1s;
+    /* border: 2px solid black; */
+    margin: 2px;
+    transition: .2s;
     border-radius: 10px;
 }
 
 nav h2:hover {
-    transform: rotate(180deg);
+    /* transform: rotate(180deg); */
     color: hotpink;
-    border: 2px solid hotpink;
     border-radius: 10px;
     cursor: pointer;
+    margin: 2px;
 }
 
 @media screen and (max-width: 500px) {
