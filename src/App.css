@@ -113,6 +113,20 @@ div.img-cont img {
     padding: 20px 2%;
     max-width: 760px;
 }
+
+.info a {
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: hotpink;
+    transition: .5s;
+}
+
+.info a:hover {
+    color: rgb(184, 0, 153);
+}
+
 div.project-container {
     margin: 50px auto;
 }

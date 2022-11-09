@@ -17,6 +17,7 @@ function About() {
       <div className='info'>
         <h2>Received a Certificate of Full Stack Web Development from the University of Minnesota</h2>
         <p>Developed my skills in the MERN stack, as well as JavaScript, HTML, and CSS. Known for creating responsive applications with simple and enjoyable UI/UX, and findiing creative solutions to logical problems.</p>
+        <a href='https://www.credly.com/badges/533a754e-430b-47a3-8e67-895e5ea0f12c/linked_in?t=rj30hp' target='_blank'>Check out my certificate here!</a>
       </div>
       <div className='info'>
         <h2>Who I am</h2>
