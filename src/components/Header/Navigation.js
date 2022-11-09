@@ -6,7 +6,7 @@ function Navigation(props) {
         <div>
             <nav>
                 <Link className="link" to="/">
-                    <h2>about</h2>
+                    <h2>home</h2>
                 </Link>
                 <Link className="link" to="/portfolio"><h2>portfolio</h2>
                 </Link>

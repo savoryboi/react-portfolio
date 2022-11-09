@@ -1,14 +1,20 @@
+import Contact from './Contact';
+import Portfolio from './Portfolio';
 const img = require('../assets/images/headshot-new.jpg');
 
 function About() {
 
   return (
+    <div className='Site'>
+
+
     <div className='about-container'>
       <div className='img-cont animate__animated animate__flipInY'>
         <img className="headshot-img" src={img}></img>
         <div id='intro'>
           <h2>Hi I'm Andy...</h2>
           <h3>restaurant manager turned coder.</h3>
+          <Contact />
         </div>
       </div>
       <div className='info'>
@@ -31,8 +37,11 @@ function About() {
           I utilize my background in communications and media to create meaningful and creative solutions to user problems by having a holistic understanding of how users interact with digital products.
         </p>
       </div>
-
-
+    </div>
+    <div className='portfolio-section'>
+    <h1>Some of my work...</h1>
+    <Portfolio />
+    </div>
     </div>
   )
 }

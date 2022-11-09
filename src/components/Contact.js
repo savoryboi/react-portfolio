@@ -1,12 +1,7 @@
 
 function Contact() {
     return (
-        <div className="contact-container">
-            <div>
-                <h2 className="animate__animated animate__rollIn">get in touch with me</h2>
-            </div>
-
-            <div className="icon-wrapper">
+            <div className="icon-wrapper" id="contact">
                 <a target="_blank" href='http://linkedin.com/in/andy-bjerk' >
                     <i className="animate__animated animate__bounceInUp fa-brands fa-linkedin fa-2x"></i>
                 </a>
@@ -21,7 +16,6 @@ function Contact() {
                 </a>
 
             </div>
-        </div>
     )
 }
 

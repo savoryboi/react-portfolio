@@ -127,8 +127,18 @@ div.img-cont img {
     color: rgb(184, 0, 153);
 }
 
+.portfolio-section {
+    text-align: center;
+}
+
+.portfolio-section h1 {
+    color: hotpink;
+}
+
 div.project-container {
     margin: 50px auto;
+    max-width: 850px;
+    padding-bottom: 80px;
 }
 
 .project-container {
@@ -145,7 +155,7 @@ div.project-container {
 }
 
 .project-div img {
-    max-width: 400px;
+    max-width: 330px;
     border-radius: 15px;
     transition: .555s;
     display: flex;
