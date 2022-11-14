@@ -5,7 +5,7 @@ const projects = [
         title: 'MyDood', 
         url: 'https://my-dood.herokuapp.com/',
         github: 'https://github.com/savoryboi/my-dood',
-        img_path: require('../assets/images/mydood.gif.gif'), 
+        img_path: require('../assets/images/mydood_gif.gif'), 
         burner_email: 'test@testing.com',
         burner_password: 'testing'
     },
@@ -24,10 +24,10 @@ const projects = [
         img_path: require('../assets/images/todo.gif')
     }, 
     {
-        title: 'Lil Letter Lightshow',
+        title: 'Letter Lightshow',
         url: 'https://savoryboi.github.io/letter-lightshow/',
         github: 'https://github.com/savoryboi/letter-lightshow',
-        img_path: require('../assets/images/lightshow.gif')
+        img_path: require('../assets/images/lightshow.png')
     }, 
     {
         title: 'Weather Dashboard',
@@ -54,7 +54,7 @@ function Project() {
             </a>
             <div className='project-info'>
             <h3>{project.title}</h3>
-            <a href={project.github}>GitHub Repo</a>
+            <a target="_blank" href={project.github}>GitHub Repo</a>
             {project.burner_email ? <div><p>login: {project.burner_email}</p> <p>password: {project.burner_password}</p> </div>: <div></div>}
             </div>
             </div>

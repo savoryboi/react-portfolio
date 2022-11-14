@@ -38,9 +38,10 @@ footer {
 
 .about-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 2% 10%;
     justify-content: center;
+    
 
 }
 
@@ -52,17 +53,6 @@ footer {
     border-radius: 13px;
     font-weight: 400;
 }
-
-/* .about-section {
-    align-self: center;
-    width: 400px;
-    border-radius: 19px;
-    border: 2px hotpink solid;
-    padding: 3% 5%;
-    margin: 2%;
-    justify-content: center;
-    background-color: rgba(255, 105, 180, 0.477);
-} */
 
 .about-wrapper {
     display: flex;
@@ -89,9 +79,11 @@ div.img-cont img {
     transition: .5s;
 }
 
+
 #intro {
     padding: 10px 2%;
     font-size: larger;
+    max-width: 700px;
 }
 #intro h2 {
     color: hotpink;
@@ -109,18 +101,39 @@ div.img-cont img {
     transition: .5s;
 } */
 
-.info {
+div.info {
     padding: 20px 2%;
     max-width: 760px;
+    margin: auto;
 }
 
 .info a {
     text-decoration: none;
     padding: 5px 0px;
-    font-size: 18px;
+    font-family: 'Exo';
+    font-size: 15px;
     font-weight: bold;
     color: hotpink;
     transition: .5s;
+}
+
+.info p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.info h1 {
+    font-family: 'Exo';
+}
+.info h2 {
+    font-family: 'Exo';
+}
+
+.info h3 {
+    font-family: 'Exo';
+}
+
+.info {
+    font-family: 'Exo';
 }
 
 .info a:hover {
@@ -184,8 +197,7 @@ div.project-container {
 
 .icon-wrapper {
     display: flex;
-    justify-content: center;
-    margin: 5%;
+    margin: 2% 5%;
 }
 
 .icon-wrapper i {
@@ -214,16 +226,31 @@ div.resume-container a:hover {
 }
 
 @media screen and (max-width: 800px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-wrapper {
+        justify-content: center;
+    }
+
+    .about-container {
+        justify-content: center;
+        margin: auto;
+    }
     .about-wrapper {
         display: flex;
         flex-direction: column;
         justify-self: center;
     }
 
-    .img-cont {
+    div.img-cont {
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
     img.headshot-img {
@@ -231,26 +258,17 @@ div.resume-container a:hover {
         height: 150px;
     }
 
-    .about-section {
-        max-width: 350px;
-    }
-
-    .about-section h3 {
-        font-size: 14px;
-    }
-
-    .about-section p {
-        font-size: 12px;
-    }
-
     .project-div img {
-        width: 280px;
+        width: 320px;
     }
 
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 801px) {
     div.img-cont {
         width: 100%;
+    }
+    .img-cont {
+        display: flex;
     }
 }

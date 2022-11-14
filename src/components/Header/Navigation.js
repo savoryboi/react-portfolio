@@ -8,12 +8,12 @@ function Navigation(props) {
                 <Link className="link" to="/">
                     <h2>home</h2>
                 </Link>
-                <Link className="link" to="/portfolio"><h2>portfolio</h2>
+                <Link id="portfolio_navLink" className="link" to="/portfolio"><h2>portfolio</h2>
                 </Link>
-                <Link className="link" to="/contact">
+                <Link id="contact_navLink" className="link" to="/contact">
                     <h2>contact</h2>
                 </Link>
-                <Link className="link" to="/resume">
+                <Link id="resume_navLink" className="link" to="/resume">
                     <h2>resume</h2>
                 </Link>
 
