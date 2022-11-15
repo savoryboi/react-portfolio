@@ -49,7 +49,7 @@ function Project() {
         {projects.map((project, index) => {
             
             return <div key={index} className="project-div animate__animated animate__bounceInUp">
-            <a href={project.url}>
+            <a target="_blank" href={project.url}>
                 <img src={project.img_path}></img>
             </a>
             <div className='project-info'>
