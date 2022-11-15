@@ -271,4 +271,8 @@ div.resume-container a:hover {
     .img-cont {
         display: flex;
     }
+
+    .icon-wrapper {
+        justify-content: center;
+    }
 }
