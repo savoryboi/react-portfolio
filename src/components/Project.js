@@ -16,13 +16,7 @@ const projects = [
         img_path: require('../assets/images/Pokeslap_Gif.gif'),
         burner_email: 'testing', 
         burner_password: 'testing'
-    }, 
-    {
-        title: 'ToDo App', 
-        url: 'https://express-practice-andy.herokuapp.com/', 
-        github: '#', 
-        img_path: require('../assets/images/todo.gif')
-    }, 
+    },
     {
         title: 'Letter Lightshow',
         url: 'https://savoryboi.github.io/letter-lightshow/',
