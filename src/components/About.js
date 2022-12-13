@@ -40,7 +40,6 @@ function About() {
       </div>
       <div className='info'>
         <h3>Received a Certificate of Full Stack Web Development from the University of Minnesota</h3>
-        <a href='https://www.credly.com/badges/533a754e-430b-47a3-8e67-895e5ea0f12c/linked_in?t=rj30hp' target='_blank'>Check out my certificate here!</a>
       </div>
     </div>
     <div className='portfolio-section'>

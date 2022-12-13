@@ -92,6 +92,7 @@ div.img-cont img {
 
 #intro h3 {
     font-weight: 400;
+    font-family: 'Exo';
 }
 
 /* img.headshot-img {
@@ -268,6 +269,11 @@ div.resume-container a:hover {
     div.img-cont {
         width: 100%;
     }
+    img.headshot-img {
+       min-width: 200px;
+       max-width: 200px;
+    }
+
     .img-cont {
         display: flex;
     }
