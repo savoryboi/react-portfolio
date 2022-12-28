@@ -2,6 +2,14 @@
 
 const projects = [
     {
+        title: 'Albumify', 
+        url: 'https://albumify.netlify.app', 
+        github: 'https://github.com/savoryboi/albumify', 
+        img_path: require('../assets/images/albumify_demo.GIF'), 
+        burner_email: 'albumify.test@gmail.com', 
+        burner_password: 'albumifytest123'
+    },
+    {
         title: 'MyDood', 
         url: 'https://my-dood.herokuapp.com/',
         github: 'https://github.com/savoryboi/my-dood',
