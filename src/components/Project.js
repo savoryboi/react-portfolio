@@ -3,11 +3,9 @@
 const projects = [
     {
         title: 'Albumify', 
-        url: 'https://albumify.netlify.app', 
+        url: 'https://tinyurl.com/2hn45d5j', 
         github: 'https://github.com/savoryboi/albumify', 
         img_path: require('../assets/images/albumify_demo.GIF'), 
-        burner_email: 'albumify.test@gmail.com', 
-        burner_password: 'albumifytest123'
     },
     {
         title: 'MyDood', 
