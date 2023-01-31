@@ -13,10 +13,6 @@ function Navigation(props) {
                 <Link id="contact_navLink" className="link" to="/contact">
                     <h2>contact</h2>
                 </Link>
-                <Link id="resume_navLink" className="link" to="/resume">
-                    <h2>resume</h2>
-                </Link>
-
             </nav>
         </div>
     );

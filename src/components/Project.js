@@ -2,6 +2,12 @@
 
 const projects = [
     {
+        title: 'Spotlessify', 
+        url: 'https://tinyurl.com/2p8ca3fe', 
+        github: 'https://github.com/savoryboi/spotify_playlist_filter',
+        img_path: require('../assets/images/spotlessify_screenshot.png')
+    },
+    {
         title: 'Albumify', 
         url: 'https://tinyurl.com/2hn45d5j', 
         github: 'https://github.com/savoryboi/albumify', 
