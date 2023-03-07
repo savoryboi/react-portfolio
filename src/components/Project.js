@@ -14,6 +14,12 @@ const projects = [
         img_path: require('../assets/images/albumify_demo.GIF'), 
     },
     {
+        title: 'Chrome Extension: Social Media Blocker', 
+        url: 'https://github.com/savoryboi/social_blocker', 
+        url: 'https://github.com/savoryboi/social_blocker', 
+        img_path: require('../assets/images/blocker.gif')
+    },
+    {
         title: 'MyDood', 
         url: 'https://my-dood.herokuapp.com/',
         github: 'https://github.com/savoryboi/my-dood',
