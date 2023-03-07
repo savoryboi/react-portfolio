@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ce2ffaeb.css",
-    "main.js": "/react-portfolio/static/js/main.31c22727.js",
+    "main.js": "/react-portfolio/static/js/main.56920b35.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Pokeslap_Gif.gif": "/react-portfolio/static/media/Pokeslap_Gif.99cf93d656abad749a4a.gif",
     "static/media/headshot-new.jpg": "/react-portfolio/static/media/headshot-new.ba41326974c1f4f9db48.jpg",
+    "static/media/blocker.gif": "/react-portfolio/static/media/blocker.12ff3428b0ce8ce577b6.gif",
     "static/media/albumify_demo.GIF": "/react-portfolio/static/media/albumify_demo.62a12f04bb549b6ab7a1.GIF",
     "static/media/spotlessify_screenshot.png": "/react-portfolio/static/media/spotlessify_screenshot.9b332cf35056cb404245.png",
     "static/media/background.png": "/react-portfolio/static/media/background.105875257d02654566c3.png",
@@ -14,11 +15,11 @@
     "static/media/lightshow.png": "/react-portfolio/static/media/lightshow.c67adeb798cd44207458.png",
     "index.html": "/react-portfolio/index.html",
     "main.ce2ffaeb.css.map": "/react-portfolio/static/css/main.ce2ffaeb.css.map",
-    "main.31c22727.js.map": "/react-portfolio/static/js/main.31c22727.js.map",
+    "main.56920b35.js.map": "/react-portfolio/static/js/main.56920b35.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce2ffaeb.css",
-    "static/js/main.31c22727.js"
+    "static/js/main.56920b35.js"
   ]
 }
