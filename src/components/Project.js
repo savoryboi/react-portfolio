@@ -20,22 +20,6 @@ const projects = [
         img_path: require('../assets/images/blocker.gif')
     },
     {
-        title: 'MyDood', 
-        url: 'https://my-dood.herokuapp.com/',
-        github: 'https://github.com/savoryboi/my-dood',
-        img_path: require('../assets/images/mydood_gif.gif'), 
-        burner_email: 'test@testing.com',
-        burner_password: 'testing'
-    },
-    {
-        title: 'PokeSLAP', 
-        url: 'https://poke-slap.herokuapp.com/',
-        github: 'https://github.com/palmersola/Pokemon-SLAP',
-        img_path: require('../assets/images/Pokeslap_Gif.gif'),
-        burner_email: 'testing', 
-        burner_password: 'testing'
-    },
-    {
         title: 'Letter Lightshow',
         url: 'https://savoryboi.github.io/letter-lightshow/',
         github: 'https://github.com/savoryboi/letter-lightshow',
