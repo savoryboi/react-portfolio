@@ -41,8 +41,36 @@ footer {
     flex-direction: column;
     padding: 2% 10%;
     justify-content: center;
-    
+}
 
+.stack-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+img.stack-icon {
+    height: 50px;
+    width: 50px;
+    margin: 4px 12px;
+}
+
+.tech-icon-container {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    transition: .333s;
+}
+
+div.tech-icon-container p {
+    font-size: 10px;
+}
+
+div.tech-icon-container:hover {
+    transform: scale(150%);
 }
 
 .contact-container div h2 {
@@ -62,12 +90,12 @@ footer {
 div.img-cont {
     display: flex;
     padding: 20px;
-    width: 300px;
+    width: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 30px;
     align-items: center;
-    
+
 }
 
 div.img-cont img {
@@ -85,6 +113,7 @@ div.img-cont img {
     font-size: larger;
     max-width: 700px;
 }
+
 #intro h2 {
     color: hotpink;
     font-family: 'Exo', sans-serif;
@@ -104,7 +133,7 @@ div.img-cont img {
 
 div.info {
     padding: 20px 2%;
-    max-width: 760px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -119,12 +148,14 @@ div.info {
 }
 
 .info p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
+
 .info h1 {
     font-family: 'Exo';
 }
+
 .info h2 {
     font-family: 'Exo';
 }
@@ -241,6 +272,7 @@ div.resume-container a:hover {
         justify-content: center;
         margin: auto;
     }
+
     .about-wrapper {
         display: flex;
         flex-direction: column;
@@ -269,9 +301,10 @@ div.resume-container a:hover {
     div.img-cont {
         width: 100%;
     }
+
     img.headshot-img {
-       min-width: 200px;
-       max-width: 200px;
+        min-width: 200px;
+        max-width: 200px;
     }
 
     .img-cont {
