@@ -68,10 +68,6 @@ function About() {
               <img className='stack-icon' src={express} placeholder='express-icon'></img>
               <p>Express.js</p>
           </div>
-          <div className='tech-icon-container'>
-              <img className='stack-icon' src={github} placeholder='github-icon'></img>
-              <p>GitHub</p>
-          </div>
         </div>
         </div>
         <div className='info'>

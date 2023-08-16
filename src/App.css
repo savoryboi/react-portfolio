@@ -67,7 +67,9 @@ img.stack-icon {
 
 div.tech-icon-container p {
     font-size: 10px;
+    transition: .333s;
 }
+
 
 div.tech-icon-container:hover {
     transform: scale(150%);
@@ -263,6 +265,8 @@ div.resume-container a:hover {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+
 
     .icon-wrapper {
         justify-content: center;
