@@ -1,9 +1,8 @@
 # React Portfolio
+Welcome to my portfolio! What started as a React learning project has become one of my favorite applications to go back and polish. While the UI is extremely simple, I wanted to ensure those viewing it felt my personality.
 
-## Description
-Using React, this slick portfolio is a single page application that uses many components to alter what the client sees. 
-
-![Screenshot](./src/assets/images/portfolio_demo.gif)
+## Demo
+![Screenshot](./src/assets/images/portfolio_video.gif)
 
 ## Technology Used 
 * React.js
