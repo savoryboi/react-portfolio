@@ -9,7 +9,7 @@ const projects = [
     },
     {
         title: 'Albumify', 
-        url: 'https://tinyurl.com/2hn45d5j', 
+        url: 'https://tinyurl.com/3522akmh', 
         github: 'https://github.com/savoryboi/albumify', 
         img_path: require('../assets/images/albumify_demo.GIF'), 
     },
